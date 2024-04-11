@@ -1,4 +1,4 @@
-public class Emprestimo {
+public class emprestimo {
     private ArrayList<ItemEmprestimo> livros;
     private String dataDevolucao;
 
