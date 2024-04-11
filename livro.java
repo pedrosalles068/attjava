@@ -12,13 +12,6 @@ public class livro {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
-    public String getTitulo() {
-        return titulo;
-    }
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-
-    }
 
 }
 
