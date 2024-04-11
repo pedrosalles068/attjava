@@ -1,28 +1,21 @@
-public class emprestimo {
-    private ArrayList<ItemEmprestimo> livros;
-    private String dataDevolucao;
+import java.util.ArrayList;
 
-    public Emprestimo() {
-        livros = new ArrayList<ItemEmprestimo>();
+public class emprestimo {
+    private String dataDevolucao;
+    private ArrayList<itemEmprestado> livros;
+
+    public emprestimo(String dataDevolucao) {
+        this.dataDevolucao = dataDevolucao;
     }
 
     public String getDataDevolucao() {
-        return dataDevolucao != null ? dataDevolucao : "";
+        return dataDevolucao;
     }
 
-    public void setDataDevolucao(String data) {
-        this.dataDevolucao = data;
+    public void setDataDevolucao(String dataDevolucao) {
+        this.dataDevolucao = dataDevolucao;
     }
-
-    public ArrayList<ItemEmprestimo> getLivros() {
-        return livros;
-    }
-
-    public void setLivros(ArrayList<ItemEmprestimo> livros) {
-        this.livros = livros;
-    }
-
-    public void addLivro(ItemEmprestimo livro) {
-        livros.add(livro);
+    public void agregarLivro(livro livros) {
+        this.livros.add(livros);
     }
 }
