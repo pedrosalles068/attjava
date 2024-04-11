@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class emprestimo {
     private String dataDevolucao;
-    private ArrayList<itemEmprestado> livros;
+    private List<itemEmprestado> itemEmprestados = new ArrayList();
 
     public emprestimo(String dataDevolucao) {
         this.dataDevolucao = dataDevolucao;
@@ -15,7 +16,7 @@ public class emprestimo {
     public void setDataDevolucao(String dataDevolucao) {
         this.dataDevolucao = dataDevolucao;
     }
-    public void agregarLivro(livro livros) {
-        this.livros.add(livros);
+    public void agregarLivro(itemEmprestado livro) {
+        this.itemEmprestados.add(livro);
     }
 }
