@@ -1,13 +1,15 @@
 public class itemEmprestado {
-    private String dataDevolucao;
-    
-    //métodos getters e setters
-    public String getDataDevolucao(){
-        return dataDevolucao;
-    }
-    public void set(String dataDevolucao){
-        this.dataDevolucao = dataDevolucao;
+    private String dataDev;
+
+    public itemEmprestado(String dataDev) {
+        this.dataDev = dataDev;
     }
 
+    public String getDataDev() {
+        return dataDev;
+    }
 
+    public void setDataDev(String dataDev) {
+        this.dataDev = dataDev;
+    }
 }
