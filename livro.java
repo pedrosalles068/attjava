@@ -2,7 +2,7 @@ public class livro {
     private String isbn;
     private String titulo;
 
-    public livro (String registro, String autor){
+    public livro (String titulo, String autor){
         this.isbn = isbn;
         this.titulo = titulo;
     }
