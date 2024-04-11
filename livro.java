@@ -1,10 +1,10 @@
 public class livro {
-    private String lsbn;
+    private String isbn;
     private String titulo;
 
     public livro (String registro, String autor){
-        this.lsbn=lsbn;
-        this.titulo=titulo;
+        this.isbn = isbn;
+        this.titulo = titulo;
     }
     public String getIsbn() {
         return isbn;
@@ -19,5 +19,7 @@ public class livro {
         this.titulo = titulo;
 
     }
+
+}
 
 }
