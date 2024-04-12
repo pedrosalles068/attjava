@@ -18,5 +18,10 @@ public class emprestimo {
     }
     public void agregarLivro(itemEmprestado livro) {
         this.itemEmprestados.add(livro);
+        livro livro1 = new livro("teste","teste");
+        this.itemEmprestados.add(livro);
+    }
+     public List<itemEmprestado> getItemEmprestados() {
+        return this.itemEmprestados;
     }
 }
